@@ -1,34 +1,43 @@
 body {
-    background: url(./IMG_3319.jpg) ;
-    background-color: #0c0000; /* set a dark background color as a fallback */
+    background-color: #393053;
+    background-image: url(./IMG_3319.jpg);
+     /* set a dark background color as a fallback #0a1412 080300*/
+     background-size: 800px;
     background-repeat: no-repeat;
     aspect-ratio: 16/10;
     background-position: center;
-    background-size: cover;
+    
     height: 100vh;
     width: 100%;
     
+    
 }
+
 .head1 {
     color: rgb(164, 43, 104);
     text-align: center;
         font-family: 'Tangerine', serif;
         font-size: 48px;
         text-shadow: 4px 4px 4px #aaa;
+        
       
 }
 .head2{
     color: rgb(164, 43, 104);  
+   
 }
 footer {
     text-align:center;
     padding: 5px;
-    background-color: #080300;
+    background-color: #F6FFA6;
     color: #100909;
+   
 }
 .about {
     text-align: center;
     color: rgb(180, 215, 215);
+    font-family: 'Source Sans Pro', sans-serif;
+    
 }
 .a{
     color: rgb(199, 183, 75);
@@ -39,9 +48,11 @@ hr {
     border-color: rgb(44, 44, 127);
     border-width: 5px;
     width: 5%;
+    
 }
 .b{
     color: rgb(199, 183, 75);
+    
     
 }
 
